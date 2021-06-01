@@ -1,0 +1,30 @@
+<mat-toolbar  class="dropdown" [class.mat-elevation-z3]="isActive" fxShow="true" fxHide.lt-md="true"> 
+
+<button class="mat"  [matMenuTriggerFor]="belowMenu">Categories</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item>Jeans</button>
+  <button mat-menu-item>Shirts</button>
+  <button mat-menu-item>T-shirts</button>
+  <button mat-menu-item>Acssories</button>
+  <button mat-menu-item>Footwear</button>
+</mat-menu>
+<button class="mat" [matMenuTriggerFor]="belowMenu1">Sort</button>
+<mat-menu #belowMenu1="matMenu" yPosition="below">
+  <button mat-menu-item>Popularity</button>
+  <button mat-menu-item>Relaveince</button>
+  <button mat-menu-item>Low to High</button>
+  <button mat-menu-item>hight to low</button>
+</mat-menu>
+<button class="mat"  [matMenuTriggerFor]="belowMenu2">Filter By</button>
+<mat-menu #belowMenu2="matMenu" yPosition="below">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+<div class="search-wrapper">
+  <span class="las la-search"></span>
+  <input type="search" placeholder="search hear"/>
+</div>
+</mat-toolbar>
+
+
+

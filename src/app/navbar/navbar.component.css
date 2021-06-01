@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.sidenav-container {
+  height: 100%;
+}
+.sidenav {
+  width: 200px;
+}
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+.mat-toolbar.mat-primary {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+.hidden{
+  display: none;
+}
+.menues{
+  flex:1 1 auto;
+}
+mat-toolbar a{
+  display: inline-block;
+  margin :0 16px;
+  color:black;
+  text-decoration:none;
+  font-family: 'Itim', cursive; 
+}
+.nav-backimg{
+  background-image:url('/assets/images/main1.jpg');
+  height:40%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  opacity:0.8;  
+}
+mat-icon{
+  color:black;
+}
+.headline{
+  color:black;
+  font-family: 'Itim', cursive; 
+}
+.search-wrapper{
+  border:1px solid #ccc;
+  border-radius:26px;
+  height:50px;
+  display:flex;
+  align-items:center;
+  overflow-x:hidden;
+  margin-left:7%;
+}
+.search-wrapper span{
+  display:inline-block;
+  padding:0rem 1rem;
+  font-size:1.6rem;
+  color:black;
+}
+.search-wrapper input{
+  height:100%;
+  padding:.5rem;
+  border:none;
+  outline:none;
+}
+  
+
+  

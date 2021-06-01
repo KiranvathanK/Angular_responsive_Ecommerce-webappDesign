@@ -1,0 +1,113 @@
+span .advrts{
+  margin-top:25px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+a img{
+  width:100%;
+  margin-bottom: 15px;;
+  display:flex;
+  align-items:center;
+  justify-content:center;       
+}
+p{
+  font-size:18px;
+  display:flex;
+  align-items:left;
+  justify-content:left;
+  font-weight:strong;
+}
+.category-bar {
+  margin-top:10px;
+  background-color: #fff;
+  padding:6px;
+  font-family: 'Itim', cursive; 
+}
+mat-card-title {
+  background-color: yellow;
+  width:100%;
+  border-radius:0.4rem;
+}
+.mega-offer{
+  background-color:#d2f8d2;
+  align-items:center;
+  justify-content:center;
+  margin-top:20px;
+}
+div .mega-img{
+  width:100%;
+  margin-top:15px;
+}
+.meg1,.meg2 {
+  padding:20px;
+  display:flex;
+  overflow-x:auto;
+  align-items:center;
+  justify-content:center;
+}
+mat-card img{
+ width:100%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+mat-card{
+  margin:15px;
+}
+mat-card button {
+  background-color:black;
+  color:white;
+}
+.offer{
+  margin-top:20px;
+}
+div .offer-title{
+  width:100%;
+}
+div .offer-img,.offer-strip{
+  width:100%;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.scroll{
+  display:flex;
+  overflow-x:auto;
+}
+.scroll::-webkit-scrollbar{
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; 
+}
+.scroll::-webkit-scrollbar-thumb{
+  background: #000;
+}
+.scroll{
+  -webkit-overflow-scrolling:touch;
+}
+.exclusive-off {
+  display:flex;
+  width:50%;
+}
+.offsets {    
+  display:flex;
+   width:100%;
+}
+.appliences-mod{
+  display:flex;
+  margin-top:15px;
+  background-color:#fff;
+  width:100%
+}
+.brand-bar{
+  background-color:#dcdcdc;
+  margin-top:15px;
+  padding:10px;
+}
+.brand-bar a{
+  margin:0.4rem;
+  width:100%;
+}
